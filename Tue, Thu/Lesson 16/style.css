@@ -1,0 +1,61 @@
+/* .box{
+    width: 350px;
+    position: relative;
+    transform: all 1s;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.box::before{
+    content: '';
+    display: block;
+    position: absolute;
+    transform: all 1s;
+    left: 20px;
+    top: 20px;
+    right: -20px;
+    bottom: -20px;
+    background: linear-gradient(180deg, rgba(29,32,125,0.8) 0%, rgba(16,136,161,0.8) 100%);
+}
+
+.box:hover::before{
+    transform: all 1s;
+}
+
+html{
+    font-size: 20px;
+}
+
+.box-text{
+    font-size: 10px;
+}
+
+.text{
+    font-size: 1.5rem;
+} */
+
+.box{
+    height: 200px;
+
+    background: url("1.jpg") center / cover no-repeat;
+
+}
+
+
+div{
+    height: 300px;
+    border: 2px solid #333;
+}
+
+.first-box{
+    background: url("https://mediol-git.github.io/yoga/img/bg-01.jpg") center / cover no-repeat;
+    background-attachment: fixed;
+}
+
+.second-box{
+    background: url("https://mediol-git.github.io/yoga/img/bg-02.jpg") center / cover no-repeat;
+    background-attachment: fixed;
+}
